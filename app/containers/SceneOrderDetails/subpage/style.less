@@ -1,0 +1,149 @@
+.info{
+	padding: 0.3rem 0 0 0;
+	>h3{
+		padding: 0 0.3rem;
+		font-size: 18px;
+		color: #333;
+		font-weight: 900;
+		line-height: 0.58rem;
+	}
+	.type{
+		padding: 0 0.3rem;
+		padding-top: 0.2rem;
+		height: 0.34rem;
+		span:nth-of-type(1),span:nth-of-type(2){
+			display: block;
+			width:1.1rem;
+			height: 0.34rem; 
+			background-color: #444c58;
+			color: white;
+			text-align: center;
+			line-height: 0.34rem;
+			margin-right: 10px;
+		}
+		span:nth-of-type(2){
+			width: 1.5rem;
+		}
+
+		span:nth-of-type(3){
+			display: block;
+			height: 0.34rem; 
+			line-height: 0.34rem;
+			color: #fd524b;
+			font-size: 14px
+		}
+	}
+	.total{
+		padding: 0 0.3rem;
+		padding-top: 0.2rem;
+		span:nth-of-type(1){
+			color: #333;
+			font-size: 16px;
+		}
+		span:nth-of-type(2){
+			color: #ffae00;
+			font-size: 18px;
+			i{
+				font-size: 12px;
+			}
+		}
+	}
+	.infoDetails{
+		p{
+			padding: 0 0.3rem;
+			line-height: 0.6rem;
+			height: 0.6rem;
+			font-size: 14px;
+			span.fl{
+				color: #aeb6c3;
+			}
+			span.fr{
+				color: #444c58;
+			}
+		}
+		h3{
+			border-top: 1px solid #e5e5e5;
+			line-height: 0.5rem;
+			font-size: 14px;
+			padding: 0.3rem 0.3rem 0.2rem 0.3rem;
+			color:#444c58;
+			span{
+				font-weight: 900;
+			}
+		}
+	}
+}
+.content{
+	border-top: 0.2rem solid #e5e5e5;
+	h3{
+		padding: 0 0.3rem;
+		text-align: center;
+		height: 1.6rem;
+		text-align: center;
+		span{
+			display: inline-block;
+			height: 1.6rem;
+			line-height: 1.6rem;
+			color: #000;
+			font-size: 18px;
+			font-weight: 900;
+			position: relative;
+		}
+		span::after{
+			content:"";
+			position: absolute;
+			width: 0.4rem;
+			height: 0.1rem;
+			bottom: 0.3rem;
+			left: 50%;
+			background-color: black;
+			transform: translateX(-50%;)
+
+		}
+	}
+	.item{
+		padding: 0 0.3rem;
+		p.tit{
+			border-left: 0.14rem solid #4285f4;
+			padding-left: 0.1rem;
+			height: 0.3rem;
+			line-height: 0.3rem;
+			font-size: 14px;
+			color: #333;
+			font-weight: 900;
+			span{
+				font-size: 12px;
+				color: #aeb6c3;
+				font-weight: 400;
+			}
+			span.fr{
+				font-size: 14px;
+				color: #fd524b;
+			}
+		}
+		.infoCon{
+			padding-top: 0.4rem;
+			line-height: 0.5rem;
+			color: #444c58;
+			font-size: 16px;
+			padding-bottom: 0.4rem;
+		}
+		ul{
+			padding-bottom: 0.5rem;
+			li{
+				float: left;
+				width: 2.16rem;
+				height: 1.62rem;
+				background-color: pink;
+				overflow: hidden;
+				img{
+					display: block;
+					width: 100%;
+				}
+			}
+			li:nth-of-type(1),li:nth-of-type(2){
+				margin-right: 0.2rem;
+			}
+		}
+	}
+}

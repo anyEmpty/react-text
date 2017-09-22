@@ -1,0 +1,1 @@
+.tab{background-color:#fff;position:relative;z-index:20}.tab ul li{width:20%;float:left;text-align:center;height:.8rem;line-height:.8rem;font-size:13px;position:relative}.tab ul li.active{color:#4285f4}.tab ul li.active span:after{content:"";position:absolute;width:.4rem;height:.1rem;background-color:#4285f4;left:50%;transform:translateX(-50%);bottom:0}
